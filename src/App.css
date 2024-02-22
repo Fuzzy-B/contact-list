@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: lightblue;
+  border-radius: 10px;
 }
 
 .logo {
@@ -40,3 +42,28 @@
 .read-the-docs {
   color: #888;
 }
+
+.contactRow { 
+  border-radius: 10px;
+}
+
+.contactRow:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: darkslategray;  
+}
+
+table {
+  border-spacing: 0; 
+}
+
+.leftTD {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rightTD {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+ 
